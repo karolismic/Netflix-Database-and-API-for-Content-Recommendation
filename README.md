@@ -53,6 +53,17 @@ As an additional feature, a basic recommender engine was developed in `recommend
 
 ## Setup and Execution
 
+### Configuring Database Connection
+Before running the application, ensure that the `db_config.json` file is updated with the correct connection settings to connect to the PostgreSQL database. Update the following parameters:
+
+- dbname: The name of the PostgreSQL database.
+- user: The username used to authenticate with the PostgreSQL database.
+- password: The password associated with the provided username.
+- host: The host address where the PostgreSQL database is running.
+- port: The port number on which the PostgreSQL database is listening for connections.
+
+When the `db_config.json` is configured, proceed with the following steps:
+
 1. Ensure Python is installed on your system.
 2. Ensure that PostgreSQL is installed and running on your system.
 3. Clone the repository and navigate to the project directory.
